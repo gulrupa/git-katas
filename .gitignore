@@ -3,3 +3,4 @@ git_attributes
 *.swp
 **/exercise
 **/remote
+**/fake-remote-repository

@@ -67,8 +67,6 @@ clear-local-gpgsigning() {
 }
 
 pre-setup () {
-    kata="$(basename $(pwd))"   # kata: name of the exercise which is respective folder name
-    make-exercise-repo
     config-local-username
     config-local-gpgsigning
 }
