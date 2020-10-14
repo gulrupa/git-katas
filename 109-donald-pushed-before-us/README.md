@@ -1,4 +1,4 @@
-# Donald pushed before we do
+# Git kata: Donald pushed before we do
 
 In this kata, we will practice the case where a workmate (in this case, Donald) pushed before us on the same branch.
 We also want to push on that branch, but now we have to take into account Donald's changes.
