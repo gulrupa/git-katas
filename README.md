@@ -1,13 +1,6 @@
----
-maintainer: randomsort
----
 # Git Katas
 
 ## Quick Start
-
-### In the Cloud
-
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/praqma-training/git-katas.git)
 
 ### On Your Local Machine
 
@@ -28,8 +21,6 @@ The exercises are designed for use when we are teaching Git courses. You should 
 
 Exercises starting with _basic_ are entry-level - other exercises vary greatly in difficulty.
 
-To get an overview of the exercises in here look in [Overview.md](Overview.md).
-
 Feel free to use these exercises, that's why they're public!
 
 ## Suggested Learning Path
@@ -38,32 +29,21 @@ If you are coming to this repository for some basic Git knowledge, we recommend 
 This is the order that Jan Krag at Praqma teaches Git and might change over time. There are more exercises than this, but these should take you through
 everything you need to be able to use Git effectively in your day to day life. 
 
-- [Basic Commits](./basic-commits/README.md)
-- [Basic Staging](./basic-staging/README.md)
-- [Investigation](./investigation/README.md)
-- [Basic Branching](./basic-branching/README.md)
-- [Fast Forward Merge](./ff-merge/README.md)
-- [3 way Merge](./3-way-merge/README.md)
-- [Merge Mergesort](./merge-mergesort/README.md)
-- [Rebase Branch](./rebase-branch/README.md)
-- [Basic Revert](./basic-revert/README.md)
-- [Reset](./reset/README.md)
-- [Basic Cleaning](./basic-cleaning/README.md)
-- [Amend](./amend/README.md)
-- [Reorder the History](./reorder-the-history/README.md)
-- [Advanced Rebase Interactive](./advanced-rebase-interactive/README.md)
-- [Rebase using autosquash](./rebase-interactive-autosquash/README.md)
-- [Basic Stashing](./basic-stashing/README.md)
+- [Basic Commits](./101-basic-commits/README.md)
+- [Basic Staging](./102-basic-staging/README.md)
+- [Basic Branching](./103-basic-branching/README.md)
+- [Fast Forward Merge](./104-ff-merge/README.md)
+- [3 way Merge](./105-three-way-merge/README.md)
+- [Merge Conflict](./106-merge-mergesort/README.md)
+- [Rebase Branch](./107-rebase-branch/README.md)
+- [Tag](./108-tag/README.md)
+- [Donald Pushed Before Us](./109-donald-pushed-before-us/README.md)
+- [Reset](./110-reset/README.md)
+- [Basic Revert](./111-basic-revert/README.md)
+- [Amend](./112-amend/README.md)
+- [Basic Stashing](./113-basic-stashing/README.md)
+- [Ignore](./114-ignore/README.md)
 
-See [Overview.md](Overview.md) for a more complete list and suggested order.
-
-## Contributing
-
-If you miss exercises or find errors in any of them, feel free to improve them and make a pull request.
-
-You can also make an issue so we notice an opportunity to improve!
-
-Thank you!
 
 ## Cheatsheet
 
@@ -167,8 +147,3 @@ git config --global alias.lol "log --graph --oneline --all"
 ## Using the alias
 git lol     # Does a "git log --graph --oneline --all"
 ```
-
-## Testing
-
-There is a very small test that you can run in powershell or bash.
-It is contained in the scripts `test.sh` and `test.ps1`.
